@@ -22,4 +22,4 @@
 - "recog_to_list.py" 에서 추출한 class 이름들을 Add_DB.py 를 이용해 DB에 저장하게 됩니다. 이는 미리 만들어 두었던 API를 사용하여 추가하게 됩니다.
 
 ## Object_Detection.py
-- 메인에서 "image folder" 안의 파일이 들어오면 객체 인식을 실행할 수 있게 하는 코드이다.
+- 메인에서 "image folder" 안의 파일이 들어오면 객체 인식을 실행할 수 있게 하는 코드입니다.
