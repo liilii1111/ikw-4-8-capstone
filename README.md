@@ -23,3 +23,15 @@
 
 ## Object_Detection.py
 - 메인에서 "image folder" 안의 파일이 들어오면 객체 인식을 실행할 수 있게 하는 코드입니다.
+
+
+
+## 학습
+``` shell
+!python train.py --device 0 --epochs 140 --batch-size 4 --data /home/ikw/dataset/data.yaml --img 640 --cfg cfg/training/yolov7.yaml --weights /home/ikw/yolov7/yolov7.pt --name [real]train[1] --hyp data/hyp.scratch.p5.yaml
+```
+
+## 테스트
+``` shell
+!python detect.py --weights best.pt --img 640 --source '/home/ikw/바탕화면/123.png' --save-txt 
+```
