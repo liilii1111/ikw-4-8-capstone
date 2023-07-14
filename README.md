@@ -2,7 +2,7 @@
 
 <div align="center">
     <a href="./">
-        <img src="./figure/performance.png" width="79%"/>
+        <img src="./ikw.png" width="79%"/>
     </a>
 </div>
 
